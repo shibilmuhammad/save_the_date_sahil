@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Date | Ahammad Jeedar & Nubila Fathima</title>
+    <meta name="description" content="Join us for the Nikah Ceremony of Ahammad Jeedar & Nubila Fathima on April 10th 2026.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Entry Screen -->
+    <div id="entry-screen">
+        <div class="entry-content">
+            <div class="avatars-container">
+                <img src="images/WhatsApp Image 2026-03-18 at 11.00.11.jpeg" alt="Groom Avatar" class="entry-avatar groom-avatar">
+                <img src="images/WhatsApp Image 2026-03-18 at 11.00.12.jpeg" alt="Bride Avatar" class="entry-avatar bride-avatar">
+            </div>
+            <div class="typing-container">
+                <h1 id="typing-text-1" class="typing-text"></h1>
+                <p id="typing-text-2" class="typing-subtitle"></p>
+            </div>
+            <button id="open-invitation-btn" class="entry-btn hide">Open Invitation</button>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" id="hero-bg" style="background-image: url('images/chat3.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <p class="subtitle">SAVE THE DATE</p>
+            <h1 class="title">Ahammad Jeedar <br><span class="ampersand">&</span><br> Nubila Fathima</h1>
+            <p class="event-type">Nikah Ceremony</p>
+            <p class="date">April 10th 2026</p>
+            <div class="scroll-indicator">
+                <span>Scroll to see more</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Couple Quote Section -->
+    <section class="quote-section split-animate">
+        <div class="container">
+            <p class="quote">"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage."</p>
+        </div>
+        
+
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section split-animate">
+        <div class="container">
+            <h2 class="section-title">The Big Day</h2>
+            <div class="countdown" id="countdown">
+                <div class="time-box">
+                    <span class="number" id="days">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="hours">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="minutes">00</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="seconds">00</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- When & Where -->
+    <section class="details-section split-animate">
+        <div class="container">
+            <h2 class="section-title">When & Where</h2>
+            <div class="details-card">
+                <div class="icon-wrapper">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <h3>Nikah Ceremony</h3>
+                <p class="date">Friday, April 10th 2026</p>
+                <p class="time">6:00 PM</p>
+                <p class="venue">Panayulla kandi House, Ayanchery</p>
+                <a href="https://www.google.com/maps?q=11.629084,75.672890" target="_blank" rel="noopener noreferrer" class="btn">View on Map</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+       
+        <p class="split-animate">Looking forward to celebrating with you!</p>
+        <p class="names split-animate">Ahammad & Nubila</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
